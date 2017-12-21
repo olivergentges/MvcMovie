@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MvcMovie.Controllers
 {
+    //Hello Controller
     public class HelloWorldController : Controller
     {
         //
@@ -24,6 +25,9 @@ namespace MvcMovie.Controllers
             ViewData["Message"] = "Hello " + name;
             ViewData["NumTimes"] = numTimes;
             return View();
-        }
+        }
+
+
+
     }
 }
