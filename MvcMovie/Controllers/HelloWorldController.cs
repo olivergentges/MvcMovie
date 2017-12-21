@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MvcMovie.Controllers
 {
-    //Hello Controller
+    //Hello Controller nnn
     public class HelloWorldController : Controller
     {
         //
